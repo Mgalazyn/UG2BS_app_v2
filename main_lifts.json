@@ -1,0 +1,16 @@
+{
+        "main-lifts": [
+            {
+                "Name": "SQUAT",
+                "Version": "LOW-BAR"
+            },
+            {
+                "Name": "BENCH",
+                "Version": "COMP-BENCH"
+            },
+            {
+                "Name": "DEADLIFT",
+                "Version": "CONVECTIONAL"
+            }
+        ]
+}

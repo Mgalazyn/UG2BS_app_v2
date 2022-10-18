@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="Adding userinfo, calories intake calculator">
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="Adding main_lifts, class create plan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_plan.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_plan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exercises/main_lifts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_exercises/main_lifts.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_exercises/acessory_exercises.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <recent name="C:\Users\MarcinG\Desktop\Ugot2bestrong_app\Ugot2BeStrong_app_v2\data_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.adding_main_lift">
+  <component name="RunManager" selected="Python.build_workout">
     <configuration name="UserInformation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,6 +88,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_exercises/adding_main_lift.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_workout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MarcinG\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_workout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,9 +186,11 @@
       <item itemvalue="Python.UserInformation" />
       <item itemvalue="Python.create_plan" />
       <item itemvalue="Python.adding_main_lift" />
+      <item itemvalue="Python.build_workout" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.build_workout" />
         <item itemvalue="Python.adding_main_lift" />
         <item itemvalue="Python.create_plan" />
         <item itemvalue="Python.UserInformation" />
@@ -199,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665776011386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding main_lifts, class create plan">
+      <created>1666038590744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666038590745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -218,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding userinfo, calories intake calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding userinfo, calories intake calculator" />
+    <MESSAGE value="Adding main_lifts, class create plan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding main_lifts, class create plan" />
   </component>
 </project>
