@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="Adding main_lifts, class create plan">
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="adding build_workout as random choice of exercises for traning of the day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exercises/acessory_exercises.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accesory_exercises.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_workout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calories_intake.py" beforeDir="false" afterPath="$PROJECT_DIR$/calories_intake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_exercises/adding_main_lift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_exercises/main_lifts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_lifts.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,7 @@
     <property name="ChangesTree.GroupingKeys" value="repository&#10;directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data_exercises" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.20795107" />
@@ -67,6 +75,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UserInformation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MarcinG\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,34 +167,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_plan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MarcinG\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_plan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\MarcinG\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\MarcinG\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -184,17 +192,17 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.calories_intake" />
       <item itemvalue="Python.UserInformation" />
-      <item itemvalue="Python.create_plan" />
       <item itemvalue="Python.adding_main_lift" />
       <item itemvalue="Python.build_workout" />
+      <item itemvalue="Python.actions" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.build_workout" />
-        <item itemvalue="Python.adding_main_lift" />
-        <item itemvalue="Python.create_plan" />
-        <item itemvalue="Python.UserInformation" />
+        <item itemvalue="Python.actions" />
         <item itemvalue="Python.calories_intake" />
+        <item itemvalue="Python.UserInformation" />
+        <item itemvalue="Python.adding_main_lift" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666038590745</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding build_workout as random choice of exercises for traning of the day">
+      <created>1666114120424</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666114120424</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -248,6 +263,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding userinfo, calories intake calculator" />
     <MESSAGE value="Adding main_lifts, class create plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding main_lifts, class create plan" />
+    <MESSAGE value="adding build_workout as random choice of exercises for traning of the day" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding build_workout as random choice of exercises for traning of the day" />
   </component>
 </project>

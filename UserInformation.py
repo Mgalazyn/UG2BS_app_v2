@@ -20,4 +20,3 @@ class UserInformation:
                     f"User's height is {self.height} cm \n"
                     f"User's weight is {self.weight}  kg\n "
                     f"\n")
-

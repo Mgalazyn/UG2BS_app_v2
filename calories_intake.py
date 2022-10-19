@@ -13,10 +13,12 @@ class CalculateCaloriesIntake(UserInformation):
 
     def daily_calories_intake(self): #equation by Harris-Benedict
         if self.gender.lower() == 'men':
-            daily_calories_m = 66.5 + (13.75 * self.weight) + (5.003 * self.height) - (6.775 * self.age)
+            daily_calories_m = (66.5 + (13.75 * self.weight) + (5.003 * self.height) - (6.775 * self.age)) \
+                               * self.daily_activity
             print(f' Your daily calories intake is {daily_calories_m:.2f} cal')
         elif self.gender.lower() != 'men':
-            daily_calories_w = 655.1 + (9.563 * self.weight) + (1.85 * self.height) - (4.676 * self.age)
+            daily_calories_w = (655.1 + (9.563 * self.weight) + (1.85 * self.height) - (4.676 * self.age)) \
+                               * self.daily_activity
             print(f' Your daily calories intake is {daily_calories_w:.2f} cal')
         else:
             print('Incorrect answer, input (men/women)')
