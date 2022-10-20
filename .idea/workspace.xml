@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="adding build_workout as random choice of exercises for traning of the day">
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accesory_exercises.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_workout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calories_intake.py" beforeDir="false" afterPath="$PROJECT_DIR$/calories_intake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exercises/adding_main_lift.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exercises/main_lifts.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_lifts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requiremnts.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666114120424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json">
+      <created>1666203890434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666203890434</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -264,6 +266,7 @@
     <MESSAGE value="Adding userinfo, calories intake calculator" />
     <MESSAGE value="Adding main_lifts, class create plan" />
     <MESSAGE value="adding build_workout as random choice of exercises for traning of the day" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding build_workout as random choice of exercises for traning of the day" />
+    <MESSAGE value="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json" />
+    <option name="LAST_COMMIT_MESSAGE" value="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json" />
   </component>
 </project>

@@ -12,8 +12,8 @@ def build_workout():
 
     main_lifts = {k: random.choice(v) for k, v in main_lifts.items()}
     accessory_lifts = {k: random.sample(v, 3) for k, v in accesory_work.items()}
+    print(f"Main lift for today is: {main_lifts} \n"
+          f"Accessory lifts are: {accessory_lifts}")
 
-    return main_lifts, accessory_lifts
 
-
-print(build_workout())
+build_workout()
