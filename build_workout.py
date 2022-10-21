@@ -1,6 +1,5 @@
 import json
 import random
-import pandas as pd
 
 
 def build_workout():
@@ -14,6 +13,5 @@ def build_workout():
     accessory_lifts = {k: random.sample(v, 3) for k, v in accesory_work.items()}
     print(f"Main lift for today is: {main_lifts} \n"
           f"Accessory lifts are: {accessory_lifts}")
+    return main_lifts, accessory_lifts
 
-
-build_workout()
