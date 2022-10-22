@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="login authorization, permissions, exceptions, refactorazied actions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_workout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="option to send workout to mail, email_settings need to keept hidden" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,11 +179,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.calories_intake" />
       <item itemvalue="Python.UserInformation" />
-      <item itemvalue="Python.build_workout" />
       <item itemvalue="Python.actions" />
+      <item itemvalue="Python.build_workout" />
+      <item itemvalue="Python.calories_intake" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.send_workout_to_email" />
     </list>
     <recent_temporary>
@@ -251,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666289543362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="option to send workout to mail, email_settings need to keept hidden">
+      <created>1666378079135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666378079135</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -274,6 +277,7 @@
     <MESSAGE value="adding build_workout as random choice of exercises for traning of the day" />
     <MESSAGE value="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json" />
     <MESSAGE value="login authorization, permissions, exceptions, refactorazied actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="login authorization, permissions, exceptions, refactorazied actions" />
+    <MESSAGE value="option to send workout to mail, email_settings need to keept hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="option to send workout to mail, email_settings need to keept hidden" />
   </component>
 </project>
