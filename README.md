@@ -2,7 +2,7 @@
 
 
 Console application for gym members, or new gym comers to help them calculate daily calories intake, 
-build a free traning plan for each day (pre-programmed training plan by personal trainer with 10 years expirience)
+build a free traning plan for each day (pre-programmed training plan by personal trainer with 10 years experience)
 program have a possiblity to interact with user, or even send traning plan to him by email.
 
 
