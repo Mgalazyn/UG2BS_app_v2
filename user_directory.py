@@ -7,6 +7,13 @@ users = [
         last_name='Galazyn',
         login="ADMIN",
         role=Role.ADMIN
+    ),
+    User(
+        first_name='Kacper',
+        last_name='Kongo',
+        login='USER',
+        role=Role.USER
+
     )
 ]
 

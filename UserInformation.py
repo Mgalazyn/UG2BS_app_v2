@@ -12,7 +12,7 @@ class UserInformation:
               f' Height: {self.height}, Weight: {self.weight}')
 
     def save_info_to_csv_folder(self):
-        with open('User_info.csv', 'a') as f:
+        with open('User_info.csv', 'w') as f:
             f.write(f" {self.header} \n"
                     f"User's name is {self.first_name} \n"
                     f"User's surname is {self.last_name} \n"

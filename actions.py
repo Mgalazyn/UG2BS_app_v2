@@ -16,6 +16,9 @@ def add_exercise_to_accessory(new_data, filename='data_exercises/accesory_exerci
         json.dump(file_data, f, indent=4)
 
 
+data = {"Name": "Squat", "Version": "SSB"}
+
+
 def login():
     failed_login_attempts = 0
     lock_time = timedelta()

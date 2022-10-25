@@ -22,4 +22,4 @@ def send_email(message, reciver=input('Type in your email: '), subject='Your wor
     print('Workout send successfully')
 
 
-send_email(message=str(build_workout()))
+
