@@ -5,7 +5,8 @@ from build_workout import build_workout
 from email_settings import password, my_mail
 
 
-def send_email(message, reciver=input('Type in your email: '), subject='Your workout for today', server='smtp.gmail.com',
+def send_email(message, reciver=input('Type in your email: '), subject='Your workout for today',
+               server='smtp.gmail.com',
                from_email=my_mail):
     msg = EmailMessage()
     msg['Subject'] = subject

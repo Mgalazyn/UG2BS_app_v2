@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="option to send workout to mail, email_settings need to keept hidden" />
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="sr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calories_intake.py" beforeDir="false" afterPath="$PROJECT_DIR$/calories_intake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_plan.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_plan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_workout_to_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_workout_to_email.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.20795107" />
   </component>
@@ -51,7 +60,7 @@
       <recent name="C:\Users\MarcinG\Desktop\Ugot2bestrong_app\Ugot2BeStrong_app_v2\data_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.send_workout_to_email">
+  <component name="RunManager" selected="Python.main">
     <configuration name="UserInformation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,17 +146,17 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Ugot2BeStrong_app_v2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\MarcinG\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\MarcinG\Desktop\Ugot2BeStrong_app_v2\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -179,11 +188,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.UserInformation" />
       <item itemvalue="Python.actions" />
       <item itemvalue="Python.build_workout" />
       <item itemvalue="Python.calories_intake" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.send_workout_to_email" />
     </list>
     <recent_temporary>
@@ -254,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666378079135</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sr">
+      <created>1666461472712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666461472712</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sr">
+      <created>1666637146263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666637146263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -278,6 +301,7 @@
     <MESSAGE value="changingin logic of build_workout, deleting some files, changin structure of visualizing data, adding possibility to add exercise to json" />
     <MESSAGE value="login authorization, permissions, exceptions, refactorazied actions" />
     <MESSAGE value="option to send workout to mail, email_settings need to keept hidden" />
-    <option name="LAST_COMMIT_MESSAGE" value="option to send workout to mail, email_settings need to keept hidden" />
+    <MESSAGE value="sr" />
+    <option name="LAST_COMMIT_MESSAGE" value="sr" />
   </component>
 </project>

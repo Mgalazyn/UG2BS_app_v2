@@ -1,9 +1,9 @@
 import json
 import user_directory
-import exception
+from exception import UserNotFound
 from os import path
 from datetime import datetime, timedelta
-from config import config
+import config
 
 
 def add_exercise_to_accessory(new_data, filename='data_exercises/accesory_exercises.json'):
@@ -24,7 +24,7 @@ def login():
         user_login = input("Type in your login: ")
         if last_attempt_dt is not None:
             login_attempts_in = datetime.now() - last_attempt_dt
-            last_attempt_dt = datetime_now()
+            last_attempt_dt = datetime.now()
             if login_attempts_in < lock_time:
                 failed_login_attempts += 1
                 print('Failed authorization')

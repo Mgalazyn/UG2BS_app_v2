@@ -9,7 +9,7 @@ class CalculateCaloriesIntake(UserInformation):
 
     def __str__(self):
         return (f' Calories calculator for {self.first_name} {self.last_name}: '
-                f'{self.calories_intake}')
+                )
 
     def daily_calories_intake(self): #equation by Harris-Benedict
         if self.gender.lower() == 'men':
