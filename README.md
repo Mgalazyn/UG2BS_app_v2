@@ -56,7 +56,7 @@ from interface import save_your_name_to_app, calculate_your_calories, build_work
 
 def main():
     try:
-        print(f' CHOOSE OPTION TO:'
+        print(f' CHOOSE OPTION TO DO:'
               f' [1] CALCULATE YOUR CALORIES'
               f' [2] BUILD YOUR WORKOUT FOR TODAY'
               f' [3] SEND WORKOUT_TO_EMAIL'
