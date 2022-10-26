@@ -32,5 +32,3 @@ class CalculateCaloriesIntake(UserInformation):
             print('Incorrect answer, input (men/women)')
 
 
-p = CalculateCaloriesIntake()
-print(p.daily_calories_intake())

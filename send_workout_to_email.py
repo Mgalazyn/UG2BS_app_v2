@@ -5,13 +5,13 @@ from build_workout import build_workout
 from email_settings import password, my_mail
 
 
-def send_email(message, reciver=input('Type in your email: '), subject='Your workout for today',
+def send_email(message, subject='Your workout for today',
                server='smtp.gmail.com',
                from_email=my_mail):
     msg = EmailMessage()
     msg['Subject'] = subject
     msg['From'] = from_email
-    msg['To'] = reciver
+    msg['To'] = input('Type in your email: '),
     msg.set_content(message)
     server = smtplib.SMTP(server, 587)
     server.ehlo()

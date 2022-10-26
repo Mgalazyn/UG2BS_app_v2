@@ -9,7 +9,8 @@ from exception import WrongUserInfo, CaloriesError, WorkoutError, WrongEmailErro
 def save_your_name_to_app():
     try:
         u = UserInformation()
-        print(u.save_info_to_csv_folder())
+        u.save_info_to_csv_folder()
+        # print(u.save_info_to_csv_folder())
     except WrongUserInfo:
         print('Please re-enter your details.. ')
 
@@ -17,7 +18,8 @@ def save_your_name_to_app():
 def calculate_your_calories():
     try:
         c = CalculateCaloriesIntake()
-        print(c.daily_calories_intake())
+        c.daily_calories_intake()
+        # print(c.daily_calories_intake())
     except CaloriesError:
         print('Please re-enter your details for calories calculator..')
 
@@ -39,7 +41,6 @@ def add_your_exercies_to_the_plan():
 
 def send_your_workout_to_email():
     try:
-        b = build_workout()
         send_email(message=str(build_workout()))
         print('Sending workout...')
     except WrongEmailError:
