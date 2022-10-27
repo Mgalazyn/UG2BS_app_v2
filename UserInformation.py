@@ -9,7 +9,7 @@ class UserInformation:
 
     def __str__(self):
         return (f' User information: First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
-              f' Height: {self.height}, Weight: {self.weight}')
+                f' Height: {self.height}, Weight: {self.weight}')
 
     def save_info_to_csv_folder(self):
         with open('User_info.csv', 'w') as f:

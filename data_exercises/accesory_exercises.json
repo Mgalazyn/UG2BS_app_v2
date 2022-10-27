@@ -27,6 +27,10 @@
         {
             "Name": "OHP",
             "Version": "WIDE GRIP"
+        },
+        {
+            "Name": "SQUAT",
+            "Version": "Bulgarian sq"
         }
     ]
 }
