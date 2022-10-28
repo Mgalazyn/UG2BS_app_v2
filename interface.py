@@ -31,7 +31,7 @@ def build_workout_for_today():
         print('Please try again..')
 
 
-def add_your_exercies_to_the_plan():
+def add_your_exercises_to_the_plan():
     try:
         data = {"Name": "FLOOR PRESS", "Version": "LANDMINE"}
         add_exercise_to_accessory(new_data=data)

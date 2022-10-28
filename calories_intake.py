@@ -8,8 +8,7 @@ class CalculateCaloriesIntake(UserInformation):
         self.gender = str(input('What\'s your gender(men/women)?:'))
 
     def __str__(self):
-        return (f' Calories calculator for {self.first_name} {self.last_name}: '
-                )
+        return f' Calories calculator for {self.first_name} : '
 
     def daily_calories_intake(self): #equation by Harris-Benedict
         if self.gender.lower() == 'men':
@@ -27,8 +26,7 @@ class CalculateCaloriesIntake(UserInformation):
                               f"Carbs: {((daily_calories_w * 0.5) / 4):.2f} g " \
                               f"Fats: {((daily_calories_w * 0.2) / 9):.2f} g "
             print(f' Your daily calories intake is {daily_calories_w:.2f} cal \n'
-                  f' and your macros are {macro_of_diet_w}')
+                  f' and your macros are \n {macro_of_diet_w}')
         else:
             print('Incorrect answer, input (men/women)')
-
 
