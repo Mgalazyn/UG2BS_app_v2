@@ -32,6 +32,3 @@ def has_role(role):
 
     return check_user
 
-
-is_admin = has_role(Role.ADMIN)
-is_user = has_role(Role.USER)

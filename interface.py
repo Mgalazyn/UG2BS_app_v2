@@ -4,6 +4,7 @@ from send_workout_to_email import send_email
 from actions import add_exercise_to_accessory
 from UserInformation import UserInformation
 from exception import WrongUserInfo, CaloriesError, WorkoutError, WrongEmailError, WrongExercise
+from permissions import Role
 
 
 def save_your_name_to_app():
@@ -45,3 +46,6 @@ def send_your_workout_to_email():
         print('Sending workout...')
     except WrongEmailError:
         print('Wrong email address..')
+
+
+

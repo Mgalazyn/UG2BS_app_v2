@@ -1,5 +1,7 @@
 from interface import save_your_name_to_app, calculate_your_calories, build_workout_for_today, \
-     add_exercise_to_accessory, send_your_workout_to_email
+     add_exercise_to_accessory, send_your_workout_to_email, add_new_user
+from actions import login
+from user_directory import users
 
 
 def main():
@@ -9,7 +11,8 @@ def main():
                   f' [1] BUILD YOUR WORKOUT FOR TODAY \n'
                   f' [2] CALCULATE YOUR CALORIES \n'
                   f' [3] SEND WORKOUT_TO_EMAIL \n'
-                  f' [4] ADD YOUR NAME TO APP \n'
+                  f' [4] LOGIN YOURSELF \n'
+                  f' [5] SIGN UP \n'
                   f' [5] ADD YOURS EXERCISE TO THE PLAN \n'
                   f' [6] QUIT ')
             choose = int(input(f'Choose what you want to do: \n'))
@@ -21,7 +24,8 @@ def main():
                 send_your_workout_to_email()
             elif choose == 4:
                 save_your_name_to_app()
-            elif choose == 5:
+                login()
+            elif choose == 6:
                 value1 = input(print('Enter name of exercise: '))
                 value2 = input(print('Enter version of exercise: '))
                 new_data = {"Name": value1, "Version": value2}

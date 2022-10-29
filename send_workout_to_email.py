@@ -1,7 +1,5 @@
 import smtplib
-import base64
 from email.message import EmailMessage
-from build_workout import build_workout
 from email_settings import password, my_mail
 
 
