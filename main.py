@@ -1,5 +1,5 @@
 from interface import save_your_name_to_app, calculate_your_calories, build_workout_for_today, \
-     add_exercise_to_accessory, send_your_workout_to_email, add_new_user
+     add_exercise_to_accessory, send_your_workout_to_email
 from actions import login
 from user_directory import users
 
