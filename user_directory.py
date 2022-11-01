@@ -1,5 +1,6 @@
 from exception import UserNotFound
-from permissions import User, Role, Admin
+from permissions import User, Role, Admin, NewUser
+
 
 users = [
     Admin(
@@ -13,18 +14,14 @@ users = [
         last_name='Kongo',
         login='USER',
         role=Role.USER
+    ),
+    NewUser(
+        first_name='NEW USER',
+        last_name='NEW USER SURNAME',
+        login='NEW USER',
+        role=Role.NEW_USER
     )
 ]
-
-
-def add_new_user():
-    first_name = input('What\'s your name?: ')
-    last_name = input('What\'s your last name?: ')
-    login = input('Add your login: ')
-    role = f'{login}'
-    NewUser = (first_name, last_name, login, role)
-    users.append(NewUser)
-    return users
 
 
 def find_user_by_login(login):
@@ -34,4 +31,3 @@ def find_user_by_login(login):
             print('Log in successfully')
             return user
     raise UserNotFound
-

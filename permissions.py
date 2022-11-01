@@ -5,6 +5,7 @@ from enum import Enum
 class Role(Enum):
     ADMIN = "ADMIN"
     USER = "USER"
+    NEW_USER = 'NEW_USER'
 
 
 @dataclass
@@ -20,6 +21,14 @@ class User:
 
 @dataclass
 class Admin:
+    first_name: str
+    last_name: str
+    login: str
+    role: Role
+
+
+@dataclass
+class NewUser:
     first_name: str
     last_name: str
     login: str

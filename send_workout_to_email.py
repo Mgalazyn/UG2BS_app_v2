@@ -1,9 +1,7 @@
 import smtplib
 from email.message import EmailMessage
-
 from dotenv import load_dotenv
 import os
-from build_workout import build_workout
 
 
 load_dotenv()
@@ -27,7 +25,5 @@ def send_email(message, subject='Your workout for today',
     server.quit()
     print('Workout send successfully')
 
-
-print(send_email(message=str(build_workout())))
 
 

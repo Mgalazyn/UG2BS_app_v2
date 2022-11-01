@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="Changes">
+    <list default="true" id="55402400-bf18-4b03-99bf-20298e10a808" name="Changes" comment="Changing password, my_mail creds to more secure options of usage, .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/User_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_workout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/send_workout_to_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_workout_to_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_directory.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_directory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <recent name="C:\Users\MarcinG\Desktop\Ugot2bestrong_app\Ugot2BeStrong_app_v2\data_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.send_workout_to_email">
+  <component name="RunManager" selected="Python.main">
     <configuration name="build_workout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,27 +82,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_workout.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="calories_intake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MarcinG\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calories_intake.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,6 +153,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sign_up" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ugot2BeStrong_app_v2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sign_up.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="user_directory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ugot2BeStrong_app_v2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,18 +198,18 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.build_workout" />
-      <item itemvalue="Python.calories_intake" />
       <item itemvalue="Python.permissions" />
       <item itemvalue="Python.user_directory" />
       <item itemvalue="Python.send_workout_to_email" />
+      <item itemvalue="Python.sign_up" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.send_workout_to_email" />
+        <item itemvalue="Python.sign_up" />
         <item itemvalue="Python.user_directory" />
+        <item itemvalue="Python.send_workout_to_email" />
         <item itemvalue="Python.permissions" />
         <item itemvalue="Python.build_workout" />
-        <item itemvalue="Python.calories_intake" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667150593613</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changing password, my_mail creds to more secure options of usage, .gitignore">
+      <created>1667223481160</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667223481160</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -368,6 +379,7 @@
     <MESSAGE value="refactoring, userinfo, calories intake," />
     <MESSAGE value="Adding sign up option" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Changing password, my_mail creds to more secure options of usage, .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing password, my_mail creds to more secure options of usage, .gitignore" />
   </component>
 </project>

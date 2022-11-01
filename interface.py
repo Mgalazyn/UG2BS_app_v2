@@ -1,5 +1,5 @@
 from calories_intake import CalculateCaloriesIntake
-from build_workout import build_workout
+from build_workout import Workout
 from send_workout_to_email import send_email
 from actions import add_exercise_to_accessory
 from UserInformation import UserInformation
@@ -26,7 +26,8 @@ def calculate_your_calories():
 
 def build_workout_for_today():
     try:
-        print(build_workout())
+        p = Workout()
+        p.build_workout()
     except WorkoutError:
         print('Please try again..')
 
@@ -41,10 +42,9 @@ def add_your_exercises_to_the_plan():
 
 def send_your_workout_to_email():
     try:
-        send_email(message=str(build_workout()))
+        w = Workout()
+        send_email(message=str(w.build_workout()))
         print('Sending workout...')
     except WrongEmailError:
         print('Wrong email address..')
-
-
 
